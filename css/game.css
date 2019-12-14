@@ -1,0 +1,33 @@
+.start {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.start-button {
+  margin-top: 200px;
+  height: 200px;
+  background-color: blue;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 20px;
+  width: 200px;
+}
+
+.game-field {
+  background-color: orange;
+  min-height: 10vh;
+  margin: 1px 1px 1px 1px;
+  line-height: 10vh;
+}
+
+.target {
+  background-color: green;
+  color: white;
+  font-size: 24pt;
+  text-align: center;
+}
+
+.miss {
+  background-color: red;
+}
